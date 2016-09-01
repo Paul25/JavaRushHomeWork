@@ -9,5 +9,6 @@ public class Cat {
 
     public static void setCatsCount(int catsCount) {
         //напишите тут ваш код
+        Cat.catsCount=catsCount;
     }
 }

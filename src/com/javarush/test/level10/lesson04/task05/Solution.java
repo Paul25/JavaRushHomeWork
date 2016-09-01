@@ -13,7 +13,7 @@ public class Solution
     {
         int a = (byte)44;
         int b = (short)300;
-        short c = (short)(b - a);
+        short c = ( short)(b - a);
         System.out.println(c);
     }
 }

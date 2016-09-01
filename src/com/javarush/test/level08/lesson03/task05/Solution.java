@@ -1,5 +1,6 @@
 package com.javarush.test.level08.lesson03.task05;
 
+import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -39,14 +40,15 @@ public class Solution
             System.out.println(value);
             //System.out.println(pair.getKey() + " - " + pair.getValue());
         }
-       /* for (Map.Entry<String, String>pair: map.entrySet())
+        for (Map.Entry<String, String>pair: map.entrySet())
         {
-       *//* String key = pair.getKey();
-        System.out.println(key);*//*
+        String key = pair.getKey();
+        System.out.println(key);
             String value = pair.getValue();
             System.out.println(value);
-        }*/
-    }
+        }
 
+
+    }
 
 }

@@ -14,6 +14,8 @@ public class Solution
         float f = (float)128.50;
         int i = (int)f;
         int b = (byte) (i + f);
-        System.out.println(i);
+        System.out.println(b);
+        int c = (byte) (120);
+        System.out.println(c);
     }
 }

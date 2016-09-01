@@ -15,5 +15,6 @@ public class Solution
         char zero = '0';
         int nine = (zero + number);
         System.out.println((char)nine);
+        System.out.println(nine );
     }
 }

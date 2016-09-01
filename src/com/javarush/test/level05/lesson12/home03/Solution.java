@@ -1,7 +1,8 @@
 package com.javarush.test.level05.lesson12.home03;
 
 /* Создай классы Dog, Cat, Mouse
-Создай классы Dog, Cat, Mouse. Добавь по три поля в каждый класс, на твой выбор. Создай объекты для героев мультика Том и Джерри. Так много, как только вспомнишь.
+Создай классы Dog, Cat, Mouse. Добавь по три поля в каждый класс, на твой выбор. Создай объекты для героев мультика Том и Джерри.
+Так много, как только вспомнишь.
 Пример:
 Mouse jerryMouse = new Mouse(“Jerry”, 12 , 5), где 12 - высота в см, 5 - длина хвоста в см.
 */
@@ -10,9 +11,9 @@ public class Solution
 {
     public static void main(String[] args)
     {
-        Mouse jerryMouse = new Mouse("Jerry", 12 , 5);
-Cat tomCat=new Cat("Tom",20,25);
-        Dog bars=new Dog("Bars",30,10);
+        Mouse jerryMouse = new Mouse("Jerry", 12, 5);
+        Cat tomCat = new Cat("Tom", 20, 25);
+        Dog bars = new Dog("Bars", 30, 10);
 
     }
 
@@ -43,6 +44,7 @@ Cat tomCat=new Cat("Tom",20,25);
             this.tail = tail;
         }
     }
+
     public static class Cat
     {
         String name;

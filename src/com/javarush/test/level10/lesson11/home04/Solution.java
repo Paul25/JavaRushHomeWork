@@ -21,8 +21,7 @@ public class Solution
         //напишите тут ваш кодString
         for (int i=0;i<40;i++)
         {
-            String a =s.substring(i,s.length());
-            System.out.println(a);
+            System.out.println(s.substring(i,s.length()));
         }
 
     }

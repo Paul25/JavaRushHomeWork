@@ -21,7 +21,7 @@ public class Solution
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
         ArrayList<String> words = new ArrayList<String>();
-        for (int i = 0; i < 20; i++)
+        for (int i = 0; i < 5; i++)
         {
             words.add(reader.readLine());
         }
@@ -40,15 +40,17 @@ public class Solution
 
         //напишите тут ваш код
 
-        for (String word : list){
-            if (result.containsKey(word)){
+        for (String word : list)
+        {
+            if (result.containsKey(word))
+            {
                 result.put(word, result.get(word) + 1);
-            }
-            else {
+            } else
+            {
                 result.put(word, 1);
             }
         }
+
         return result;
     }
-
 }
